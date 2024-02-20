@@ -1,0 +1,42 @@
+﻿@{
+	ViewBag.Title = "Social Media Links";
+}
+<h1>Social Media Links</h1>
+
+<div class="margin-top-200 margin-left">
+	<div class="flex">
+		<div class="box cursor-pointer w-30">
+			<div class="flex-borderless">
+				<div class="w-50">
+					<h2><a href="@ViewBag.Facebook" class="margin-top">Facebook</a></h2>
+				</div>
+			</div>
+		</div>
+
+		<environment exclude="Development">
+			<div class="box cursor-pointer w-30">
+				<div class="flex-borderless">
+					<div class="w-50">
+						<h2><a href="@ViewBag.Instagram" class="margin-top">Instagram</a></h2>
+					</div>
+				</div>
+			</div>
+		</environment>
+
+		<div class="box cursor-pointer w-30">
+			<div class="flex-borderless">
+				<div class="w-50">
+					<h2><a href="@ViewBag.Twitter" class="margin-top">Twitter</a></h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="box cursor-pointer w-30">
+			<div class="flex-borderless">
+				<div class="w-50">
+					<h2><a href="@ViewBag.Youtube" class="margin-top">Youtube</a></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "flMpJxNdmTA6yntDe37R0Kqn3rRI1ER7YsqfhCv3L84=",
+  "Source": "SocialMediaLinks",
+  "BasePath": "_content/SocialMediaLinks",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SocialMediaLinks\\wwwroot",
+      "Source": "SocialMediaLinks",
+      "ContentRoot": "C:\\aspnetcore\\SocialMediaLinks\\SocialMediaLinks\\wwwroot\\",
+      "BasePath": "_content/SocialMediaLinks",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\aspnetcore\\SocialMediaLinks\\SocialMediaLinks\\wwwroot\\StyleSheet.css",
+      "SourceId": "SocialMediaLinks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\aspnetcore\\SocialMediaLinks\\SocialMediaLinks\\wwwroot\\",
+      "BasePath": "_content/SocialMediaLinks",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
